@@ -26,3 +26,5 @@ script:
   - python ./decide/manage.py makemigrations
   - python ./decide/manage.py migrate
   - python ./decide/manage.py test ./decide
+  - python ./decide/manage.py test mixnet
+
